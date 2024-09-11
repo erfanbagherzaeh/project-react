@@ -1,0 +1,191 @@
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin-block: 1rem;
+  }
+
+  .service__item {
+    padding: 24px;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 494px;
+  }
+
+  .main {
+    padding-top: 90px;
+  }
+
+  .services {
+    color: var(--first-color);
+  }
+  .box__org{
+    display: grid;
+    justify-items: center;
+    width: 73%;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+
+  }
+
+.box__child{
+  display: flex;
+
+}
+  
+.question_items {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.question_item {
+  width: 48%;
+  margin-bottom: 20px;
+  background: white;
+  border: 1px #d4d4d4 solid;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.question_item span {
+  color: #1e293b;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.question-content {
+  height: 0;
+  overflow: hidden;
+}
+
+.question_item.active .question-content {
+  height: auto;
+}
+
+.question_item p {
+  color: #475569;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: .9rem;
+  line-height: 1.4;
+}
+
+ 
+.blogs img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.blogs span {
+  margin-top: 10px;
+  color: #1e293b;
+}
+
+
+
+
+
+.rtl{
+  width: 50%;
+  /* background-color: #777; */
+  height: 322px;
+
+}
+.ltr{
+  width: 100%;
+  /* background-color: aqua; */
+  height: 322px;
+
+}
+.continor{
+  display: flex;
+width: 989px;
+height: 322px;
+/* background-color: black; */
+justify-items: center;
+text-align: right;
+margin: auto;
+
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 93%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  text-align: right;
+  margin-right: 20px;
+
+}
+
+.active, .accordion:hover {
+background-color: #ccc;
+}
+
+.accordion:after {
+content: '\002B';
+color: #777;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.panel {
+  width: 460px;
+  padding: 1px 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-right: 20px;
+
+
+}
+
+
+/* brand start */
+.brand-items {
+  width: 73%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 180px;
+
+
+}
+
+.brand-item {
+  width: 32%;
+  background: white;
+  border-radius: 10px;
+  border: 1px #d4d4d4 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.brand-item img {
+  width: auto;
+  height: auto;
+}
+
+/* brand end   */
